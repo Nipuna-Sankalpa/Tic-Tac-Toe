@@ -46,6 +46,8 @@ public class TicTacToe extends javax.swing.JFrame {
         ImageIcon icon = new ImageIcon(getClass().getResource("/resource/start.png"));
         start.setDisabledIcon(icon);
         start.disable();
+        System.out.println("Victory");
+        System.out.println("Nipuna Sankalpa");
     }
 
     public void start() {
