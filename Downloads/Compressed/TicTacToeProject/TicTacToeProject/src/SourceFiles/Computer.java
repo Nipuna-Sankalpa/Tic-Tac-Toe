@@ -9,7 +9,7 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class Computer extends Player {
-
+    
     int t = 0;
     Node begin = new Node("000000000", 0, this);
     Node current = begin;
